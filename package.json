@@ -7,6 +7,9 @@
     "install": "node ./node_modules/protractor/bin/webdriver-manager update",
     "test": "node ./node_modules/protractor/bin/protractor conf.js"
   },
+  "engines" : {
+    "node": ">=5.6.0"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
