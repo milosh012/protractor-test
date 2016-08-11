@@ -1,4 +1,5 @@
 exports.config = {
   framework: 'jasmine',
-  specs: ['spec.js']
+  baseUrl: 'https://dev-app.sticky.ad',
+  specs: ['test/e2e/*-spec.js']
 };
