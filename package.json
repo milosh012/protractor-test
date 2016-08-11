@@ -5,7 +5,7 @@
   "main": "conf.js",
   "scripts": {
     "install": "node ./node_modules/protractor/bin/webdriver-manager update",
-    "test": "protractor conf.js"
+    "test": "node ./node_modules/protractor/bin/protractor conf.js"
   },
   "author": "",
   "license": "ISC",
