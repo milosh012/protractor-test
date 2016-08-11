@@ -3,7 +3,7 @@
 var LoginPage = function() {
   this.usernameEl = element(by.model('loginData.username'));
   this.passwordEl = element(by.model('loginData.password'));
-  this.continueEl = element(by.id('continue'));
+  this.continueEl = element(by.buttonText('Continue'));
   this.errorMsgEl = element(by.css('[ng-message="invalid"]'));
   this.createAccountBtnEl = element(by.buttonText('Create account'));
 
